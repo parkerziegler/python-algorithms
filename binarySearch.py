@@ -1,7 +1,9 @@
 def binarySearch(list, item):
 
-    # initialize starting lowIndex at 0 and starting highIndex at
-    # length of the array - 1
+    """
+    initialize starting lowIndex at 0 and starting highIndex at
+    length of the array - 1
+    """
     lowIndex = 0
     highIndex = len(list) - 1
 
@@ -30,6 +32,4 @@ def binarySearch(list, item):
 exampleList = [1, 3, 5, 7, 11, 13, 18, 24, 30]
 print binarySearch(exampleList, 18)
 
-
-
-    
+# runtime: O(log n)
