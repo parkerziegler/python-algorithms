@@ -14,12 +14,14 @@ print sum([1])
 print sum([1, 5, 132])
 print sum([76, 40, 97, 2])
 
+# runtime O(n)
+
 """
 function to return the factorial of a given number.
 implements the same recursive technique as sum
 """
 def factorial(num):
-    if num == 0:
+    if num == 1:
         return 1
     
     return num * factorial(num - 1)
@@ -27,3 +29,5 @@ def factorial(num):
 print factorial(3)
 print factorial(5)
 print factorial(10)
+
+# runtime O(n)
